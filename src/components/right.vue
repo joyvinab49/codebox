@@ -141,6 +141,7 @@ export default {
       this.see = "inline-block";
       this.$refs.typeNames.seleType = this.leixing;
     },
+    // 这里似乎有bug（vue的黑魔法？
     msgNew(name) {
       this.leixing = name;
       for (let i = 0; i < this.types.length; i++) {
